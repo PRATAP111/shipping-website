@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #02588f;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+a{
+
+    height: max-content;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px ;
+    text-decoration: none;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+
+}
+
+ 
+.big{
+    font-size: large;
+    font-style:initial;
+    color: white;
+    padding-left: 200px;
+    padding-top: 5px;
+    
+
+
+}
+.flex{
+    font-size: large;
+    color: white;
+    display: flex; 
+    
+    
+}
+
+.background-image{
+    background-image: url(/couple-moving-sofa.jpg);
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    
+    background-attachment:fixed;
+    filter: brightness(90%);
+
+}
+.text{
+    text-align: center;
+    font-size: larger; color: white;
+}
+
+.border{
+    text-align: center;
+    font-size: large; color: solid white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    
+    border: 2px;
+
+    border-top: 50px;
+    border-right: 50px;
+    border-bottom: 50px;
+    border-left: 50px;
+    border-color:violet;
+}   
